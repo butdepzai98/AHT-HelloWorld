@@ -1,0 +1,7 @@
+<h1><?php echo $block->getTitle() ?></h1>
+
+<?php 
+    foreach ($block->productList() as $item) {
+        echo $item->getName();  
+    } 
+?>
